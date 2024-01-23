@@ -1,0 +1,33 @@
+class NAME {
+    getInfo() {
+        return {
+            id: 'ID',
+            name: 'NAME',
+            blocks: [
+                {
+                    opcode: 'func',
+                    blockType: Scratch.BlockType.REPORTER,
+                    text: 'text [input] [list]',
+                    arguments: {
+                        input: {
+                            type: Scratch.ArgumentType.STRING,
+                            defaultValue: 'xy'
+                        },
+                        list: {
+                            
+                        }
+                    }
+                }
+            ],
+            menus: {
+                test: {
+                    acceptReporters: false,
+                    items: ['x', 'y', 'z']
+                }
+            }
+        };
+    }
+
+    
+}
+Scratch.extensions.register(new CustomList());
