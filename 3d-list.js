@@ -1,7 +1,7 @@
 class CustomList {
     getInfo() {
         return {
-            id: 'ben-multidimenslist',
+            id: 'benmultidimenslist',
             name: '3D-List',
             blocks: [
                 {
