@@ -1,7 +1,7 @@
 class SaveCode {
     getInfo() {
         return {
-            id: 'ben-savecode',
+            id: 'bensavecode',
             name: 'Save-Code',
             blocks: [
                 {
