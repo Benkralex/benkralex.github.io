@@ -1,7 +1,7 @@
 class StringUtils {
     getInfo() {
         return {
-            id: 'ben-stringutils',
+            id: 'benstringutils',
             name: 'String Utils',
             blocks: [
                 {
