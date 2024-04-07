@@ -1,7 +1,7 @@
 class SaveCode {
     getInfo() {
         return {
-            id: 'bensavecode',
+            id: 'savecode',
             name: 'Save-Code',
             blocks: [
                 {
@@ -156,7 +156,7 @@ class SaveCode {
         var list = this.stringToList(args.sc);
         var prefix = list[0];
         if (prefix == args.prefix) {
-            if ((args.idx < (list.lenght)) && (args.idx != 0)) {
+            if ((args.idx < (list.length)) && (args.idx != 0)) {
                 return list[args.idx];
             } else {
                 return "Index out of range";
