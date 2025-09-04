@@ -1,0 +1,30 @@
+{
+    "uid": "test_dataset",
+    "game": "find_liar",
+    "title": {
+        "de_DE": "TEST Datenset"
+    },
+    "description": {
+        "de_DE": "TEST TEST TEST"
+    },
+    "author": {
+        "de_DE": "Benkralex"
+    },
+    "topics": {
+        "test": {
+            "de_DE": "Test"
+        }
+    },
+    "questions": [
+        {
+            "topic_key": "test",
+            "switchable": true,
+            "main_question": {
+                "de_DE": "TEST MAIN"
+            },
+            "liar_question": {
+                "de_DE": "Wie oft wechselst du wöchentlich deine Unterwäsche?"
+            }
+        }
+    ]
+}
